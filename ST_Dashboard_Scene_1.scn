@@ -1,0 +1,258 @@
+Scene: ST Dashboard Scene 1
+	P:500x600	L:479x519 
+
+		Orientation: Portrait
+		Background Colour: #FF787878
+		Action Bar Style: System
+		Title: Slider
+		Subtitle: 
+		Icon: null
+		Tab Labels: 
+
+Element: Toggle1/Toggle
+	Geometry:
+		P:12,20 148x93 L:27,10 125x74
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(1)
+		On Label: %toggle_on_label(1)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 143
+
+Element: Text1/Text
+	Geometry:
+		P:12,113 148x61 L:27,85 125x50
+	Content:
+		Text: %textbox_text(1)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Button1/Button
+	Geometry:
+		P:170,541 167x45 L:176,458 125x35
+	Content:
+		Label: Close
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Icon: null
+	Events:
+		Click: 142
+
+Element: Toggle2/Toggle
+	Geometry:
+		P:179,20 148x93 L:176,10 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(2)
+		On Label: %toggle_on_label(2)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 144
+
+Element: Toggle3/Toggle
+	Geometry:
+		P:346,20 140x93 L:325,10 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(3)
+		On Label: %toggle_on_label(3)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 145
+
+Element: Text2/Text
+	Geometry:
+		P:179,113 148x56 L:176,85 125x50
+	Content:
+		Text: %textbox_text(2)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Text3/Text
+	Geometry:
+		P:346,113 142x56 L:325,85 125x50
+	Content:
+		Text: %textbox_text(3)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Toggle4/Toggle
+	Geometry:
+		P:12,187 148x93 L:27,159 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(4)
+		On Label: %toggle_on_label(4)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 146
+
+Element: Toggle5/Toggle
+	Geometry:
+		P:179,187 148x93 L:176,159 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(5)
+		On Label: %toggle_on_label(5)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 147
+
+Element: Toggle6/Toggle
+	Geometry:
+		P:346,187 140x93 L:325,159 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(6)
+		On Label: %toggle_on_label(6)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 148
+
+Element: Text4/Text
+	Geometry:
+		P:12,280 148x56 L:27,234 125x50
+	Content:
+		Text: %textbox_text(4)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Text5/Text
+	Geometry:
+		P:179,280 148x56 L:176,234 125x50
+	Content:
+		Text: %textbox_text(5)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Text6/Text
+	Geometry:
+		P:346,280 140x56 L:325,234 125x50
+	Content:
+		Text: %textbox_text(6)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Toggle7/Toggle
+	Geometry:
+		P:12,355 148x93 L:27,308 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(7)
+		On Label: %toggle_on_label(7)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 43
+
+Element: Toggle8/Toggle
+	Geometry:
+		P:179,355 148x93 L:177,308 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(8)
+		On Label: %toggle_on_label(8)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 119
+
+Element: Toggle9/Toggle
+	Geometry:
+		P:346,355 140x93 L:326,308 125x75
+	Content:
+		On: Off
+		Off Label: %toggle_off_label(9)
+		On Label: %toggle_on_label(9)
+		Label Size: 16
+		Label Width Scale %: 100
+		Label Colour: #FFFFFFFF
+	Events:
+		CheckChange: 121
+
+Element: Text7/Text
+	Geometry:
+		P:12,448 148x56 L:27,383 125x51
+	Content:
+		Text: %textbox_text(7)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Text8/Text
+	Geometry:
+		P:179,448 148x56 L:177,383 125x51
+	Content:
+		Text: %textbox_text(8)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
+
+Element: Text9/Text
+	Geometry:
+		P:346,448 140x57 L:326,383 127x51
+	Content:
+		Text: %textbox_text(9)
+		Text Size: 16
+		Text Width Scale Percent: 100
+		Text Colour: #FFFFFFFF
+		Font: 
+		Position: Centre
+		Vertical Fit Mode: None
+		Text Format: Plain Text
